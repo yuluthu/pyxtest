@@ -693,48 +693,48 @@ COPY black_cards (id, draw, pick, text, watermark) FROM stdin;
 --
 
 COPY card_set (id, active, base_deck, description, name, weight) FROM stdin;
-2	t	f	Base Game (US)	Base Game (US)	1
-103	t	f	Base Game (Canada)	Base Game (Canada)	2
+2	f	f	Base Game (US)	Base Game (US)	1
+103	f	f	Base Game (Canada)	Base Game (Canada)	2
 134	t	f	Base Game (UK)	Base Game (UK)	3
-166	t	f	Base Game (Australia)	Base Game (Australia)	4
-191	t	f	Base Game (International)	Base Game (International)	5
-235	t	f	Red Box Expansion	Red Box Expansion	10
-271	t	f	Blue Box Expansion	Blue Box Expansion	10
-342	t	f	Green Box Expansion	Green Box Expansion	10
-398	t	f	90s Nostalgia Pack	90s Nostalgia Pack	30
-406	t	f	Holiday Pack 2012	Holiday Pack 2012	80
-414	t	f	Vote for Hillary Pack	Vote for Hillary Pack	70
-417	t	f	Vote for Trump Pack	Vote for Trump Pack	71
-421	t	f	House of Cards Pack	House of Cards Pack	30
-430	t	f	College Pack	College Pack	30
-437	t	f	Holiday Pack 2013	Holiday Pack 2013	80
-447	t	f	Fantasy Pack	Fantasy Pack	30
-454	t	f	Mass Effect Pack	Mass Effect Pack	101
-459	t	f	Holiday Pack 2014	Holiday Pack 2014	80
-466	t	f	NASA Pack	NASA Pack	30
-469	t	f	Food Pack	Food Pack	30
-476	t	f	PAX East 2013 Pack A	PAX East 2013 Pack A	102
-478	t	f	Season's Greetings Pack	Season's Greetings Pack	83
-482	t	f	PAX East 2013 Pack B	PAX East 2013 Pack B	103
-485	t	f	PAX East 2013 Pack C	PAX East 2013 Pack C	104
-487	t	f	Geek Pack	Geek Pack	30
-494	t	f	PAX East 2014 Pack	PAX East 2014 Pack	106
-499	t	f	Jew Pack	Jew Pack	30
-505	t	f	PAX Prime 2013 Pack	PAX Prime 2013 Pack	105
-510	t	f	Period Pack	Period Pack	30
-517	t	f	Post-Trump Pack	Post-Trump Pack	72
-521	t	f	Reject Pack	Reject Pack	30
-530	t	f	Retail Pack	Retail Pack	30
-533	t	f	Sci-Fi Pack	Sci-Fi Pack	30
-541	t	f	Reject Pack 2	Reject Pack 2	30
-552	t	f	Science Pack	Science Pack	30
-560	t	f	Weed Pack	Weed Pack	30
-566	t	f	Retail Product Pack	Retail Product Pack	30
-568	t	f	Tabletop Pack	Tabletop Pack	100
-572	t	f	World Wide Web Pack	World Wide Web Pack	30
-2131	t	f	Box Expansion Pack	Box Expansion Pack	30
-2152	t	f	Hidden Compartment Pack	Hidden Compartment Pack	30
-2374	t	f	PAX Prime 2014 Pack	PAX Prime 2014 Pack	107
+166	f	f	Base Game (Australia)	Base Game (Australia)	4
+191	f	f	Base Game (International)	Base Game (International)	5
+235	f	f	Red Box Expansion	Red Box Expansion	10
+271	f	f	Blue Box Expansion	Blue Box Expansion	10
+342	f	f	Green Box Expansion	Green Box Expansion	10
+398	f	f	90s Nostalgia Pack	90s Nostalgia Pack	30
+406	f	f	Holiday Pack 2012	Holiday Pack 2012	80
+414	f	f	Vote for Hillary Pack	Vote for Hillary Pack	70
+417	f	f	Vote for Trump Pack	Vote for Trump Pack	71
+421	f	f	House of Cards Pack	House of Cards Pack	30
+430	f	f	College Pack	College Pack	30
+437	f	f	Holiday Pack 2013	Holiday Pack 2013	80
+447	f	f	Fantasy Pack	Fantasy Pack	30
+454	f	f	Mass Effect Pack	Mass Effect Pack	101
+459	f	f	Holiday Pack 2014	Holiday Pack 2014	80
+466	f	f	NASA Pack	NASA Pack	30
+469	f	f	Food Pack	Food Pack	30
+476	f	f	PAX East 2013 Pack A	PAX East 2013 Pack A	102
+478	f	f	Season's Greetings Pack	Season's Greetings Pack	83
+482	f	f	PAX East 2013 Pack B	PAX East 2013 Pack B	103
+485	f	f	PAX East 2013 Pack C	PAX East 2013 Pack C	104
+487	f	f	Geek Pack	Geek Pack	30
+494	f	f	PAX East 2014 Pack	PAX East 2014 Pack	106
+499	f	f	Jew Pack	Jew Pack	30
+505	f	f	PAX Prime 2013 Pack	PAX Prime 2013 Pack	105
+510	f	f	Period Pack	Period Pack	30
+517	f	f	Post-Trump Pack	Post-Trump Pack	72
+521	f	f	Reject Pack	Reject Pack	30
+530	f	f	Retail Pack	Retail Pack	30
+533	f	f	Sci-Fi Pack	Sci-Fi Pack	30
+541	f	f	Reject Pack 2	Reject Pack 2	30
+552	f	f	Science Pack	Science Pack	30
+560	f	f	Weed Pack	Weed Pack	30
+566	f	f	Retail Product Pack	Retail Product Pack	30
+568	f	f	Tabletop Pack	Tabletop Pack	100
+572	f	f	World Wide Web Pack	World Wide Web Pack	30
+2131	f	f	Box Expansion Pack	Box Expansion Pack	30
+2152	f	f	Hidden Compartment Pack	Hidden Compartment Pack	30
+2374	f	f	PAX Prime 2014 Pack	PAX Prime 2014 Pack	107
 6969    t	f   Werewolves Special Pack Werewolves  1
 \.
 
